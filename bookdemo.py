@@ -25,7 +25,6 @@ mailman defaults)
 
 Video and more explanation:
 http://controlroom.blogspot.com/2013/09/polyhedrons-at-play.html
-
 """
 
 import time
@@ -331,6 +330,6 @@ def inadvert_loop():
 page_up = Page()
 page_dwn = Page(up=False)
 
-# page_loop(two_pages=True)
+page_loop(two_pages=True)
 inadvert_loop()
 
